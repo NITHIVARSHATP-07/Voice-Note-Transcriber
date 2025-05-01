@@ -7,4 +7,4 @@ def record_audio(filename="output.wav", duration=5):
     sd.wait()  
     write(filename, fs, audio)  
     print(f"Recording saved as {filename}")
-record_audio("output.wav", 5)
+record_audio("output.wav", 15)
