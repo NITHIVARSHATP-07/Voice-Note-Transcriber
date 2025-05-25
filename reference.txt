@@ -1,0 +1,1 @@
+   Hello everyone welcome to the voice recognition project. This is the ground truth transcript for accuracy evaluation.

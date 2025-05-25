@@ -1,0 +1,1 @@
+ Hello everyone, welcome to the Boise Recognition Project. This is the Ground Truth transcript for Accuracy Evaluation.

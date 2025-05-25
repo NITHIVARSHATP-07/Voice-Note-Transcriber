@@ -36,6 +36,11 @@ def save_transcript(text):
         f.write(text)
     print(f"\n✅ Transcript saved to: {file_path}")
 
+def save_hypothesis(text, file_path="hypothesis.txt"):
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(text)
+    print(f"✅ Hypothesis saved to: {file_path}")
+
 def extract_keywords(text):
     nlp = spacy.load("en_core_web_sm")
     doc = nlp(text)
@@ -53,4 +58,5 @@ if __name__ == "__main__":
     print("\n📄 Transcription Result:\n", transcript)
 
     save_transcript(transcript)
+    save_hypothesis(transcript) 
     extract_keywords(transcript)
